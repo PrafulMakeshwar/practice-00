@@ -30,14 +30,61 @@ html, body{
     align-items: center;
     justify-content: center;
     color: #fff;
-    gap: 20px;
+    gap: 30px;
     
 
 }
 
 #nav h4{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
 
+}
+
+#main #content{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+#content h1{
+    font-size: 51px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+#content h4{
+    font-size: 28px;
+    font-weight: 400;
+    padding: 1px 20px;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid rgb(30, 15, 229);
+    font-size: 14px;
+    background-color: rgb(30, 15, 229);
+    border-radius: 50px;
+}
+
+button:nth-child(2){
+    background-color: #fff;
+    color: rgb(30, 15, 229);
+}
+
+button:nth-child(1){
+    color: #000
 }
 
