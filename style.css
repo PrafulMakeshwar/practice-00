@@ -18,8 +18,9 @@ html, body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: #000
-
+    background-image: url(https://images.unsplash.com/photo-1695048133021-be2def43f3b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
 }
 
 #main #nav{
@@ -54,13 +55,11 @@ html, body{
 #content h1{
     font-size: 51px;
     font-weight: 600;
-    padding: 5px 20px;
 }
 
 #content h4{
     font-size: 28px;
     font-weight: 400;
-    padding: 1px 20px;
 }
 
 #buttons{
@@ -73,18 +72,27 @@ html, body{
 button{
     margin-top: 15px;
     padding: 10px 20px;
-    border: 1px solid rgb(30, 15, 229);
+    border: 1px solid #0076DF;
     font-size: 14px;
-    background-color: rgb(30, 15, 229);
+    background-color: #0076DF;
     border-radius: 50px;
+    align-items: center;
 }
 
 button:nth-child(2){
     background-color: #fff;
-    color: rgb(30, 15, 229);
+    color: #0076DF;
 }
 
 button:nth-child(1){
     color: #000
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+    background-color: #fff;
+    color: #0076DF;
 }
 
